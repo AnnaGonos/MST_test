@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="header">
+    <div class="header__logo">
+        <a href="#" class="header__logo-link">
+            NatureNest
+        </a>
+    </div>
+    <nav class="header__nav">
+        <ul class="header__menu" id="menu">
+            <li class="header__menu-item">
+                <a href="#banner" class="header__menu-link">Home</a>
+            </li>
+            <li class="header__menu-item">
+                <a href="#about-us" class="header__menu-link">About Us</a>
+            </li>
+            <li class="header__menu-item">
+                <a href="#order-form" class="header__menu-link">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<script src="js/header.js" defer></script>
+
+<main class="main">
+
+    <section class="banner" id="banner">
+        <div class="banner__container">
+            <div class="banner__title">
+                <h1>Luxury Meets Nature</h1>
+                <p class="banner__subtitle">Immerse yourself in nature without sacrificing comfort — this is a new level
+                    of glamping.</p>
+            </div>
+            <ul class="banner__list">
+                <li class="banner__item">
+                    <img class="banner__item-img" src="image/tick_price_item.svg">
+                    <p class="banner__item-text"><strong>100%</strong> Eco-Friendly practices</p>
+                </li>
+                <li class="banner__item">
+                    <img class="banner__item-img" src="image/tick_price_item.svg">
+                    <p class="banner__item-text"><strong>98%</strong> customer satisfaction</p>
+                </li>
+                <li class="banner__item">
+                    <img class="banner__item-img" src="image/tick_price_item.svg">
+                    <p class="banner__item-text"><strong>50+</strong> locations worldwide</p>
+                </li>
+            </ul>
+            <a href="#order-form" class="banner__button">Order</a>
+        </div>
+        <img class="banner__img" src="image/orig%20(3).webp" alt="">
+    </section>
+
+    <section class="advantages" id="about-us">
+        <img class="advantages__img" src="image/orig%20(2).webp" alt="">
+        <div class="advantages__container">
+            <div class="advantages__list">
+                <div class="advantages__item">
+                    <img class="advantages__item-img" src="image/Group%203555.svg">
+                    <p class="advantages__item-text">Modern Comforts. Enjoy plush beds, Wi-Fi, air conditioning, and
+                        private
+                        terraces</p>
+                </div>
+                <div class="advantages__item">
+                    <img class="advantages__item-img" src="image/Group%203555.svg">
+                    <p class="advantages__item-text">Eco-Friendly Design. All our tents are crafted from sustainable
+                        materials such as organic cotton, bamboo, and recycled fabrics. We prioritize eco-conscious
+                        practices to minimize our environmental footprint while providing a luxurious experience for our
+                        guests</p>
+                </div>
+                <div class="advantages__item">
+                    <img class="advantages__item-img" src="image/Group%203555.svg">
+                    <p class="advantages__item-text">Exclusive Locations. Discover hidden gems far from crowded tourist
+                        spots</p>
+                </div>
+                <div class="advantages__item">
+                    <img class="advantages__item-img" src="image/Group%203555.svg">
+                    <p class="advantages__item-text">Reliable Service. 24/7 support and secure grounds ensure a safe and
+                        worry-free stay</p>
+                </div>
+            </div>
+            <a href="#order-form" class="advantages__button">Order</a>
+        </div>
+        <img class="advantages__img" src="image/orig%20(1).webp" alt="">
+    </section>
+
+    <section class="order" id="order-form">
+        <div class="order__container">
+            <h2 class="order__title">Leave a request and we will contact you</h2>
+            <form class="order__form" action="/submit" method="POST">
+                <input class="order__input" type="text" id="name" name="name" placeholder="Name" required/>
+                <input class="order__input" type="email" id="email" name="email" placeholder="E-mail" required/>
+                <label class="order__checkbox-label">
+                    <input class="order__checkbox" type="checkbox" name="privacy_policy"> I accept Privacy policy
+                </label>
+                <button class="order__submit" type="submit">Submit Form</button>
+            </form>
+        </div>
+        <div class="order__img">
+            <img class="order__img-item" src="image/0c737d1e2c2511f0a230b6c76c3a3646_1.jpeg" alt="">
+        </div>
+
+    </section>
+</main>
+
+<script src="js/slideSections.js"></script>
+
+<footer class="footer">
+    <div class="footer__top">
+        <nav class="footer__nav">
+            <ul class="footer__menu">
+                <li class="footer__menu-item">
+                    <a href="#banner" class="footer__menu-link">Home</a>
+                </li>
+                <li class="footer__menu-item">
+                    <a href="#about-us" class="footer__menu-link">About Us</a>
+                </li>
+                <li class="footer__menu-item">
+                    <a href="#order-form" class="footer__menu-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="footer__container">
+        <div class="footer__logo">
+            <a href="#" class="footer__logo-link">
+                NatureNest
+            </a>
+        </div>
+        <div class="footer__links">
+            <a href="#" class="footer__link-item">
+                <img class="footer__img" src="image/Component%20icons.svg" alt="">
+            </a>
+            <a href="#" class="footer__link-item">
+                <img class="footer__img" src="image/Component%20icons%20(1).svg" alt="">
+            </a>
+            <a href="#" class="footer__link-item">
+                <img class="footer__img" src="image/Component%20icons%20(2).svg" alt="">
+            </a>
+            <a href="#" class="footer__link-item">
+                <img class="footer__img" src="image/Component%20icons%20(3).svg" alt="">
+            </a>
+            <a href="#" class="footer__link-item">
+                <img class="footer__img" src="image/Component%20icons%20(4).svg" alt="">
+            </a>
+            <a href="#" class="footer__link-item">
+                <img class="footer__img" src="image/Component%20icons%20(5).svg" alt="">
+            </a>
+        </div>
+        <a href="#order-form" class="footer__button">Order</a>
+    </div>
+    <div class="footer__bottom">
+        <span>© 2024, Copyright</span>
+        <span>Privacy policy</span>
+        <span>Terms of Use</span>
+    </div>
+</footer>
+</body>
+</html>
